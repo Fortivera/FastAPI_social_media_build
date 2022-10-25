@@ -4,14 +4,6 @@ on: [push, pull_request]
 jobs:
   Explore-GitHub-Actions:
     env:
-      DATABASE_HOSTNAME=localhost
-      DATABASE_PORT=5432
-      DATABASE_PASSWORD=postgres
-      DATABASE_NAME=APIdatabase
-      DATABASE_USERNAME=postgres
-      SECRET_KEY=asdfas87f98as7f89a23asdjkfasdfASDfasfa
-      ALGORITHM=HS256
-      ACCESS_TOKEN_EXPIRE_MINUTES=30
     runs-on: ubuntu-latest
     steps:
       - name: pulling git repository
